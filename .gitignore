@@ -1,0 +1,14 @@
+# Source materials (not needed to run the site)
+LESHA - approved LAST.pdf
+LESHA - Web _ IMAGES/
+extracted2/
+lesha-industries-claude-code-prompt.md
+
+# Unused legacy assets (superseded by assets/gallery/)
+assets/products/*.jpg
+assets/hero/*.jpg
+assets/manifest.json
+assets/icons/
+
+# Local tooling
+.claude/settings.local.json

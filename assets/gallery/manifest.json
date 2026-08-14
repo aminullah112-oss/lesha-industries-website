@@ -1,0 +1,156 @@
+{
+  "building-plumbing-cleaning": [
+    {"file": "gallery/building-plumbing-cleaning/1.jpg", "desc": "stock collage: ladder, cement mixer, bricks, blocks, lumber"},
+    {"file": "gallery/building-plumbing-cleaning/2.jpg", "desc": "stock collage: plumbing fittings, shower head, valve, wiring, breakers"},
+    {"file": "gallery/building-plumbing-cleaning/3.jpg", "desc": "stock collage: floor scrubbers, mop cart, trash bin, cleaning supplies"},
+    {"file": "gallery/building-plumbing-cleaning/4.jpg", "desc": "stock collage: bearings, pulleys, clutch, mechanical parts (mismatched category)"},
+    {"file": "gallery/building-plumbing-cleaning/5.jpg", "desc": "stock collage: nuts, bolts, screws, washers, hose clamps"},
+    {"file": "gallery/building-plumbing-cleaning/6.jpg", "desc": "stock collage: engine gaskets, filters, turbo, radiator (mismatched category)"}
+  ],
+  "cnc-plate-cutting": [
+    {"file": "gallery/cnc-plate-cutting/1.jpg", "desc": "worker operating large CNC plasma plate cutting gantry, workshop"},
+    {"file": "gallery/cnc-plate-cutting/2.jpg", "desc": "portable CNC plasma pipe cutting machine, product shot"},
+    {"file": "gallery/cnc-plate-cutting/3.jpg", "desc": "CNC lathe turning brass shaft, sparks flying, close-up"},
+    {"file": "gallery/cnc-plate-cutting/4.jpg", "desc": "CNC lathe machining metal part, sparks, orange glow"},
+    {"file": "gallery/cnc-plate-cutting/5.jpg", "desc": "CNC lathe cutting threaded worm screw shaft"},
+    {"file": "gallery/cnc-plate-cutting/6.jpg", "desc": "CNC drill machining brass part, sparks close-up"},
+    {"file": "gallery/cnc-plate-cutting/7.jpg", "desc": "CNC machine milling shaft, blue-toned close-up"},
+    {"file": "gallery/cnc-plate-cutting/8.jpg", "desc": "CNC lathe drilling metal shaft, control panel visible"}
+  ],
+  "dock-equipment": [
+    {"file": "gallery/dock-equipment/1.jpg", "desc": "hydraulic dock leveler underside, yellow safety lip"},
+    {"file": "gallery/dock-equipment/2.jpg", "desc": "edge-of-dock leveler, diamond plate, wall mounted"},
+    {"file": "gallery/dock-equipment/3.jpg", "desc": "vertical dock leveler ribbed panel with springs, yellow hazard stripe"},
+    {"file": "gallery/dock-equipment/4.jpg", "desc": "mobile hydraulic dock lift platform, yellow guard rails"},
+    {"file": "gallery/dock-equipment/5.jpg", "desc": "aluminium roller shutter door, angled product shot"},
+    {"file": "gallery/dock-equipment/6.jpg", "desc": "sectional warehouse loading doors with windows"},
+    {"file": "gallery/dock-equipment/7.jpg", "desc": "loading dock shelters/seals at building bays"},
+    {"file": "gallery/dock-equipment/8.jpg", "desc": "blue high-speed roll-up door, warehouse interior"},
+    {"file": "gallery/dock-equipment/9.jpg", "desc": "portable steel yard ramp with handrails and wheels"},
+    {"file": "gallery/dock-equipment/10.jpg", "desc": "goods lift cage and mesh-enclosed platform lift"},
+    {"file": "gallery/dock-equipment/11.jpg", "desc": "scissor lift platform and hydraulic scissor lift table"},
+    {"file": "gallery/dock-equipment/12.jpg", "desc": "yellow/black steel guard rail barriers, product shot"},
+    {"file": "gallery/dock-equipment/13.jpg", "desc": "steel fire door (red) and stainless steel door, mismatched category"},
+    {"file": "gallery/dock-equipment/14.jpg", "desc": "stainless bollards outdoors and stacked yellow bollards in warehouse"},
+    {"file": "gallery/dock-equipment/15.jpg", "desc": "PVC strip curtain door at warehouse loading bay entrance"},
+    {"file": "gallery/dock-equipment/16.jpg", "desc": "automatic boom barrier gate, orange, red/white arm"},
+    {"file": "gallery/dock-equipment/17.jpg", "desc": "sliding perimeter security gate with spikes, outdoor"},
+    {"file": "gallery/dock-equipment/18.jpg", "desc": "yellow dock leveler underside and traffic light road blocker"},
+    {"file": "gallery/dock-equipment/19.jpg", "desc": "yellow rubber speed bump / cable protector ramps"},
+    {"file": "gallery/dock-equipment/20.jpg", "desc": "curved stainless steel gravity roller conveyor"},
+    {"file": "gallery/dock-equipment/21.jpg", "desc": "manual pallet jack and hydraulic pallet stacker"}
+  ],
+  "drainage-grating": [
+    {"file": "gallery/drainage-grating/1.jpg", "desc": "steel channel drain grating installed between pavers"},
+    {"file": "gallery/drainage-grating/2.jpg", "desc": "galvanized trench drain grating across warehouse driveway"},
+    {"file": "gallery/drainage-grating/3.jpg", "desc": "square floor drain cover, decorative leaf pattern"},
+    {"file": "gallery/drainage-grating/4.jpg", "desc": "long steel trench drain grating across loading yard"},
+    {"file": "gallery/drainage-grating/5.jpg", "desc": "steel grating drain channel in industrial tank room"},
+    {"file": "gallery/drainage-grating/6.jpg", "desc": "green and black FRP grating walkway on factory floor"}
+  ],
+  "electric-welding": [
+    {"file": "gallery/electric-welding/1.jpg", "desc": "Paton MIG welding machine with torch and cables"},
+    {"file": "gallery/electric-welding/2.jpg", "desc": "orange MMA inverter welder with helmet and electrode holder"},
+    {"file": "gallery/electric-welding/3.jpg", "desc": "blue industrial welding machine with wire feed unit"},
+    {"file": "gallery/electric-welding/4.jpg", "desc": "ESAB Rogue AC/DC TIG welder with torch and cables"},
+    {"file": "gallery/electric-welding/5.jpg", "desc": "blue MIG/MAG welding machine with wire feeder and torch"},
+    {"file": "gallery/electric-welding/6.jpg", "desc": "welder in mask arc-welding a steel pipe, close-up"},
+    {"file": "gallery/electric-welding/7.jpg", "desc": "welder in patterned helmet welding steel frame, sparks"},
+    {"file": "gallery/electric-welding/8.jpg", "desc": "gloved hand MIG welding steel bracket, sparks close-up"}
+  ],
+  "garage-equipment": [
+    {"file": "gallery/garage-equipment/1.jpg", "desc": "single-post ceiling-mounted car lift arm, product shot"},
+    {"file": "gallery/garage-equipment/2.jpg", "desc": "blue scissor-type car lift with ramps, product shot"},
+    {"file": "gallery/garage-equipment/3.jpg", "desc": "Tilmarcon hydraulic shop press, floor standing"},
+    {"file": "gallery/garage-equipment/4.jpg", "desc": "orange hydraulic vehicle lift with tilting ramp"},
+    {"file": "gallery/garage-equipment/5.jpg", "desc": "four-post car lift and two-post column car lift"},
+    {"file": "gallery/garage-equipment/6.jpg", "desc": "rotary screw air compressor with tank, product shot"},
+    {"file": "gallery/garage-equipment/7.jpg", "desc": "red glass-door tool/parts storage cabinet (mismatched category)"},
+    {"file": "gallery/garage-equipment/8.jpg", "desc": "pneumatic solenoid valves and assorted hydraulic fittings (mismatched category)"},
+    {"file": "gallery/garage-equipment/9.jpg", "desc": "electrical control panel enclosure, open and closed (mismatched category)"},
+    {"file": "gallery/garage-equipment/10.jpg", "desc": "hydraulic cylinders with control valve (duplicate theme of hydraulic-cylinder category)"},
+    {"file": "gallery/garage-equipment/11.jpg", "desc": "stainless storage tanks indoors and blue silos outdoors (mismatched category)"},
+    {"file": "gallery/garage-equipment/12.jpg", "desc": "grey horizontal fuel/chemical storage tank with gauges (mismatched category)"}
+  ],
+  "gate": [
+    {"file": "gallery/gate/1.jpg", "desc": "stainless steel staircase with handrail, indoors (mismatched category)"},
+    {"file": "gallery/gate/2.jpg", "desc": "brushed steel slatted garden side gate"},
+    {"file": "gallery/gate/3.jpg", "desc": "white sliding security gate at building entrance"},
+    {"file": "gallery/gate/4.jpg", "desc": "ornate stainless steel double driveway gate"}
+  ],
+  "hand-tools": [
+    {"file": "gallery/hand-tools/1.jpg", "desc": "assorted hand tools: wrenches, ratchet, pliers, screwdrivers"},
+    {"file": "gallery/hand-tools/2.jpg", "desc": "power tools: angle grinder, drills, sander, miter saw"}
+  ],
+  "hydraulic-cylinder": [
+    {"file": "gallery/hydraulic-cylinder/1.jpg", "desc": "large CNC hydraulic cylinder manufacturing line, workshop"},
+    {"file": "gallery/hydraulic-cylinder/2.jpg", "desc": "fire pump skid and workers testing equipment (mismatched category)"},
+    {"file": "gallery/hydraulic-cylinder/3.jpg", "desc": "finished hydraulic cylinders in various colors, factory floor"}
+  ],
+  "metal-stainless-fabrication": [
+    {"file": "gallery/metal-stainless-fabrication/1.jpg", "desc": "welder in mask cutting metal, large shower of sparks"},
+    {"file": "gallery/metal-stainless-fabrication/2.jpg", "desc": "welder crouched welding rebar cage on construction site"},
+    {"file": "gallery/metal-stainless-fabrication/3.jpg", "desc": "welder welding steel lattice frame in fabrication yard"},
+    {"file": "gallery/metal-stainless-fabrication/4.jpg", "desc": "welder welding thick steel pipe flange, sparks"},
+    {"file": "gallery/metal-stainless-fabrication/5.jpg", "desc": "two workers welding rebar cage/pile cap outdoors"},
+    {"file": "gallery/metal-stainless-fabrication/6.jpg", "desc": "welder in full mask welding large steel pipe"}
+  ],
+  "metal-structures": [
+    {"file": "gallery/metal-structures/1.jpg", "desc": "collage: storage tanks, steel warehouse frame, jetty, crane"},
+    {"file": "gallery/metal-structures/2.jpg", "desc": "interior of large steel-frame warehouse building, empty"},
+    {"file": "gallery/metal-structures/3.jpg", "desc": "polished stainless steel columns in mall interior (mismatched category)"},
+    {"file": "gallery/metal-structures/4.jpg", "desc": "steel mezzanine floor frame with rebar decking, construction"},
+    {"file": "gallery/metal-structures/5.jpg", "desc": "steel platform structure with yellow storage hoppers indoors"},
+    {"file": "gallery/metal-structures/6.jpg", "desc": "steel building frame under construction, brick walls forming"},
+    {"file": "gallery/metal-structures/7.jpg", "desc": "close-up steel I-beam frame connections, construction site"},
+    {"file": "gallery/metal-structures/8.jpg", "desc": "precast concrete column building frame near coastline"}
+  ],
+  "press-brake-shearing": [
+    {"file": "gallery/press-brake-shearing/1.jpg", "desc": "Accurl CNC press brake machine, workshop showroom"},
+    {"file": "gallery/press-brake-shearing/2.jpg", "desc": "operator feeding sheet metal into Amada press brake"},
+    {"file": "gallery/press-brake-shearing/3.jpg", "desc": "close-up press brake tooling and CNC control panel"},
+    {"file": "gallery/press-brake-shearing/4.jpg", "desc": "Krrass CNC guillotine shearing machine, factory floor"}
+  ],
+  "pump-maintenance": [
+    {"file": "gallery/pump-maintenance/1.jpg", "desc": "technician inspecting industrial pump and valve piping"},
+    {"file": "gallery/pump-maintenance/2.jpg", "desc": "large green industrial pump with motor, plant piping"},
+    {"file": "gallery/pump-maintenance/3.jpg", "desc": "technician using laser alignment tool on pump motor"},
+    {"file": "gallery/pump-maintenance/4.jpg", "desc": "row of green centrifugal pumps with motors outdoors"},
+    {"file": "gallery/pump-maintenance/5.jpg", "desc": "blue split-case centrifugal pump with motor, factory"},
+    {"file": "gallery/pump-maintenance/6.jpg", "desc": "row of blue industrial pumps with motors, plant room"}
+  ],
+  "safety-first": [
+    {"file": "gallery/safety-first/1.jpg", "desc": "PPE set: safety boots, hard hat, gloves, respirator, goggles"},
+    {"file": "gallery/safety-first/2.jpg", "desc": "PPE set: hard hat, safety glasses, hi-vis vests, ear plugs"},
+    {"file": "gallery/safety-first/3.jpg", "desc": "fire safety kit: extinguishers, hose reel, fire blanket, axe"}
+  ],
+  "spray-paint": [
+    {"file": "gallery/spray-paint/1.jpg", "desc": "worker in protective suit spray-painting steel brackets"},
+    {"file": "gallery/spray-paint/2.jpg", "desc": "worker spray-painting large blue steel beams outdoors"}
+  ],
+  "steel-aluminium-welding": [
+    {"file": "gallery/steel-aluminium-welding/1.jpg", "desc": "two welders TIG welding large stainless pipe flange"},
+    {"file": "gallery/steel-aluminium-welding/2.jpg", "desc": "welders fabricating steel pressure vessel/tank in shop"},
+    {"file": "gallery/steel-aluminium-welding/3.jpg", "desc": "two welders MIG welding aluminium frame with fume extractor"},
+    {"file": "gallery/steel-aluminium-welding/4.jpg", "desc": "two welders welding aluminium chassis frame corner"}
+  ],
+  "waste-management": [
+    {"file": "gallery/waste-management/1.jpg", "desc": "stationary waste compactor unit, teal, product shot"},
+    {"file": "gallery/waste-management/2.jpg", "desc": "blue waste compactor closed and open showing ram mechanism"},
+    {"file": "gallery/waste-management/3.jpg", "desc": "open-top roll-off waste skip container, angled and side view"},
+    {"file": "gallery/waste-management/4.jpg", "desc": "teal skip bin with hinged lid, open"},
+    {"file": "gallery/waste-management/5.jpg", "desc": "tipping waste skip bin, angled hopper shape"},
+    {"file": "gallery/waste-management/6.jpg", "desc": "wheeled steel waste bin/tipping cart"},
+    {"file": "gallery/waste-management/7.jpg", "desc": "vertical baler machine for waste/cardboard, product shot"},
+    {"file": "gallery/waste-management/8.jpg", "desc": "tipping hopper waste container on castors"},
+    {"file": "gallery/waste-management/9.jpg", "desc": "rear-loading garbage truck body, mechanism visible"}
+  ],
+  "mechanical-parts": [
+    {"file": "gallery/mechanical-parts/1.jpg", "desc": "stock collage: flywheel, brake rotor, pulleys, bearings (from company profile PDF)"},
+    {"file": "gallery/mechanical-parts/2.jpg", "desc": "stock collage: wheel hub, timing belt, oil filter, CV boots (from company profile PDF)"}
+  ],
+  "nuts-bolts": [
+    {"file": "gallery/nuts-bolts/1.jpg", "desc": "stock collage: bolts, nuts, screws, washers, hose clamp (from company profile PDF)"},
+    {"file": "gallery/nuts-bolts/2.jpg", "desc": "stock collage: gaskets, clutch disc, turbo, radiator, fan (from company profile PDF; auto-parts theme mismatched with nuts/bolts heading)"}
+  ]
+}
