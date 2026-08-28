@@ -91,4 +91,15 @@ document.addEventListener('DOMContentLoaded', function () {
   /* ---------------- Footer year ---------------- */
   var yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  /* ---------------- Pre-fill enquiry form from a product page ---------------- */
+  var messageField = document.getElementById('message');
+  if (messageField) {
+    var productName = new URLSearchParams(window.location.search).get('product');
+    if (productName) {
+      messageField.value = 'I am enquiring about the following product: ' + productName + '\n\n';
+      messageField.focus();
+      messageField.setSelectionRange(messageField.value.length, messageField.value.length);
+    }
+  }
 });

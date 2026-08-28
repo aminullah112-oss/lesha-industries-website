@@ -385,6 +385,24 @@ button { font-family: inherit; cursor: pointer; }
 .icon-circle svg { width: 38px; height: 38px; stroke: var(--white); fill: none; }
 .icon-circle.icon-photo { background: none; padding: 0; overflow: hidden; border: 3px solid var(--red); }
 .icon-circle.icon-photo img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+
+.datasheet-box {
+  display: flex; align-items: flex-start; gap: 14px;
+  margin-top: 28px;
+  padding: 16px 18px;
+  border: 1.5px dashed var(--gray-300);
+  border-radius: var(--radius);
+  background: var(--gray-100);
+  color: var(--gray-700);
+  font-size: .92rem;
+}
+.datasheet-icon {
+  width: 36px; height: 36px; flex: none;
+  border-radius: 50%;
+  background: var(--teal-dark);
+  display: flex; align-items: center; justify-content: center;
+}
+.datasheet-icon svg { width: 18px; height: 18px; stroke: var(--white); fill: none; }
 .icon-item h3 { font-size: 1.02rem; margin-bottom: 6px; }
 .icon-item p { font-size: .88rem; margin: 0; }
 .section-dark .icon-item p { color: #cfe3e7; }
@@ -486,9 +504,17 @@ button { font-family: inherit; cursor: pointer; }
   transition: box-shadow .2s ease, transform .2s ease;
 }
 .photo-grid .photo-item:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
-.photo-grid .photo-thumb { aspect-ratio: 4/3; overflow: hidden; background: var(--gray-100); }
+.photo-grid .photo-thumb { position: relative; aspect-ratio: 4/3; overflow: hidden; background: var(--gray-100); }
 .photo-grid .photo-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease; display: block; }
 .photo-grid .photo-item:hover .photo-thumb img { transform: scale(1.06); }
+a.photo-item { text-decoration: none; color: inherit; cursor: pointer; }
+.detail-badge {
+  position: absolute; right: 8px; bottom: 8px; z-index: 2;
+  background: var(--red); color: var(--white);
+  font-size: .68rem; font-weight: 600; font-family: 'Poppins', sans-serif;
+  padding: 4px 10px; border-radius: 999px;
+  box-shadow: var(--shadow-sm);
+}
 .photo-grid .photo-caption {
   padding: 11px 13px;
   font-family: 'Poppins', sans-serif;
