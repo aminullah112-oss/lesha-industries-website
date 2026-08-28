@@ -303,7 +303,7 @@ button { font-family: inherit; cursor: pointer; }
   overflow: hidden;
   border: 5px solid var(--white);
   box-shadow: var(--shadow-lg);
-  background: var(--gray-100);
+  background: var(--teal-dark);
   min-height: 0;
 }
 .cluster-card img { width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -371,7 +371,7 @@ button { font-family: inherit; cursor: pointer; }
   grid-template-columns: repeat(3, 1fr);
   gap: 36px 24px;
 }
-.icon-item { text-align: center; }
+.icon-item { text-align: center; text-decoration: none; color: inherit; }
 .icon-circle {
   width: 88px; height: 88px;
   border-radius: 50%;
@@ -413,6 +413,15 @@ button { font-family: inherit; cursor: pointer; }
 .category-card .cc-label span { font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 1.02rem; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 .category-card .cc-label svg { width: 18px; height: 18px; flex: none; transition: transform .2s ease; }
 .category-card:hover .cc-label svg { transform: translateX(4px); }
+.category-card .cc-icon {
+  position: absolute; z-index: 3; top: 16px; left: 16px;
+  width: 42px; height: 42px;
+  border-radius: 50%;
+  background: var(--red);
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: var(--shadow-md);
+}
+.category-card .cc-icon svg { width: 22px; height: 22px; stroke: var(--white); fill: none; }
 
 .product-card {
   background: var(--white);
@@ -447,7 +456,7 @@ button { font-family: inherit; cursor: pointer; }
 .cat-group { margin-bottom: 64px; scroll-margin-top: 130px; }
 .cat-group-head {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 16px;
   margin-bottom: 24px;
   padding-bottom: 14px;
@@ -455,6 +464,14 @@ button { font-family: inherit; cursor: pointer; }
 }
 .cat-group-head h2 { margin: 0; }
 .cat-group-head .count { font-size: .85rem; color: var(--gray-500); font-family: 'Poppins', sans-serif; }
+.cat-icon {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  background: var(--red);
+  display: flex; align-items: center; justify-content: center;
+  flex: none;
+}
+.cat-icon svg { width: 22px; height: 22px; stroke: var(--white); fill: none; }
 .cat-products { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
 
 .cat-group-desc { max-width: 800px; color: var(--gray-700); margin-bottom: 24px; }
