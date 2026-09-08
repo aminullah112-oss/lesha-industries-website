@@ -568,6 +568,21 @@ a.photo-item { text-decoration: none; color: inherit; cursor: pointer; }
 .check-list li { display: flex; gap: 10px; margin-bottom: 10px; font-size: .95rem; color: var(--gray-700); align-items: flex-start; }
 .check-list svg { width: 18px; height: 18px; flex: none; color: var(--red); margin-top: 2px; }
 
+/* ------------------------------- Spec table -------------------------------- */
+.spec-table { width: 100%; border-collapse: collapse; margin: 24px 0; font-size: .92rem; }
+.spec-table tr { border-bottom: 1px solid var(--gray-100); }
+.spec-table tr:last-child { border-bottom: none; }
+.spec-table td { padding: 10px 6px; color: var(--gray-700); vertical-align: top; }
+.spec-table td:first-child { color: var(--teal-dark); font-weight: 600; width: 46%; font-family: 'Poppins', sans-serif; }
+.spec-group-title { margin: 26px 0 4px; font-size: .78rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--red); }
+
+/* ----------------------------- Capacity variants ---------------------------- */
+.variant-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; margin: 24px 0 8px; }
+.variant-card { border: 1px solid var(--gray-100); border-radius: var(--radius); padding: 20px; background: var(--white); box-shadow: var(--shadow-sm); }
+.variant-card h4 { color: var(--teal-dark); margin-bottom: 4px; font-size: 1rem; }
+.variant-card p { font-size: .82rem; color: var(--gray-500); margin-bottom: 16px; }
+.variant-card .btn { padding: 9px 18px; font-size: .8rem; }
+
 /* --------------------------------- CTA band -------------------------------- */
 .cta-band {
   background: linear-gradient(120deg, var(--teal-dark), var(--teal));

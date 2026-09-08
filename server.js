@@ -7,7 +7,8 @@ const root = __dirname;
 const types = {
   '.html': 'text/html', '.css': 'text/css', '.js': 'application/javascript',
   '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png',
-  '.svg': 'image/svg+xml', '.json': 'application/json', '.ico': 'image/x-icon'
+  '.svg': 'image/svg+xml', '.json': 'application/json', '.ico': 'image/x-icon',
+  '.pdf': 'application/pdf'
 };
 
 http.createServer((req, res) => {
