@@ -498,14 +498,11 @@ button { font-family: inherit; cursor: pointer; }
 .photo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 18px; }
 .photo-grid .photo-item {
   display: flex; flex-direction: column;
-  border-radius: var(--radius); overflow: hidden;
-  background: var(--white); box-shadow: var(--shadow-sm);
-  border: 1px solid var(--gray-100);
-  transition: box-shadow .2s ease, transform .2s ease;
+  transition: transform .2s ease;
 }
-.photo-grid .photo-item:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
-.photo-grid .photo-thumb { position: relative; aspect-ratio: 4/3; overflow: hidden; background: var(--gray-100); }
-.photo-grid .photo-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease; display: block; }
+.photo-grid .photo-item:hover { transform: translateY(-3px); }
+.photo-grid .photo-thumb { position: relative; aspect-ratio: 4/3; overflow: hidden; border-radius: var(--radius); }
+.photo-grid .photo-thumb img { width: 100%; height: 100%; object-fit: contain; transition: transform .3s ease; display: block; }
 .photo-grid .photo-item:hover .photo-thumb img { transform: scale(1.06); }
 a.photo-item { text-decoration: none; color: inherit; cursor: pointer; }
 .detail-badge {
@@ -516,13 +513,12 @@ a.photo-item { text-decoration: none; color: inherit; cursor: pointer; }
   box-shadow: var(--shadow-sm);
 }
 .photo-grid .photo-caption {
-  padding: 11px 13px;
+  padding: 11px 4px 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: .84rem;
   color: var(--teal-dark);
   text-align: center;
-  border-top: 1px solid var(--gray-100);
   line-height: 1.3;
 }
 .cat-jump { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 56px; }
