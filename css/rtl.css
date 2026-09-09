@@ -1,0 +1,37 @@
+/* ==========================================================================
+   Lesha Industries — RTL / Arabic overrides
+   Loaded after style.css, only on pages with <html dir="rtl" lang="ar">
+   ========================================================================== */
+
+body {
+  font-family: 'Cairo', 'Tajawal', 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6,
+.logo-word, .logo-tag, .mega-card h4, .btn, .nav-link,
+.stat strong, .cta-band h2 {
+  font-family: 'Cairo', 'Tajawal', 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+
+/* Physical (non-logical) absolute-position decorations that need mirroring */
+.cc-icon { left: auto; right: 16px; }
+.detail-badge { right: auto; left: 8px; }
+.icon-circle.icon-photo { border-color: var(--red); }
+
+/* Hero slider arrows: keep "previous points toward reading start" */
+.hero-nav.prev { left: auto; right: 24px; }
+.hero-nav.next { right: auto; left: 24px; }
+
+/* Nav-toggle hamburger bars are symmetric, no change needed */
+
+/* Checklist / spec table / stat rows already mirror via flex + dir=rtl,
+   just make sure numbers inside stay LTR-shaped (Arabic-Indic not used) */
+.spec-table td:first-child { text-align: right; }
+.spec-table td:last-child { text-align: right; }
+
+/* WhatsApp float button stays bottom-corner nearest the thumb on both
+   directions — force it to the visual left in RTL so it doesn't collide
+   with right-aligned content */
+.wa-float { right: auto; left: 22px; }
+
+/* Breadcrumb separators still read correctly since browser reverses the
+   flex row automatically under dir=rtl; nothing extra required. */

@@ -117,11 +117,20 @@ button { font-family: inherit; cursor: pointer; }
   padding-bottom: 8px;
   flex-wrap: wrap;
 }
-.topbar-links { display: flex; gap: 22px; flex-wrap: wrap; }
+.topbar-links { display: flex; gap: 22px; flex-wrap: wrap; align-items: center; }
 .topbar-links a, .topbar span { display: inline-flex; align-items: center; gap: 6px; color: #d8e6e9; }
 .topbar-links a:hover { color: var(--white); }
 .topbar svg { width: 14px; height: 14px; flex: none; }
 .topbar-hours { opacity: .85; }
+.lang-switch {
+  margin-inline-start: auto;
+  font-weight: 600;
+  padding: 3px 12px;
+  border: 1px solid rgba(216,230,233,.35);
+  border-radius: 999px;
+  font-size: .78rem;
+}
+.lang-switch:hover { border-color: var(--white); }
 
 /* ---------------------------------- Header ------------------------------ */
 .site-header {

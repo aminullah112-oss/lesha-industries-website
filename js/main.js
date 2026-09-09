@@ -97,7 +97,10 @@ document.addEventListener('DOMContentLoaded', function () {
   if (messageField) {
     var productName = new URLSearchParams(window.location.search).get('product');
     if (productName) {
-      messageField.value = 'I am enquiring about the following product: ' + productName + '\n\n';
+      var prefix = document.documentElement.lang === 'ar'
+        ? 'أستفسر عن المنتج التالي: '
+        : 'I am enquiring about the following product: ';
+      messageField.value = prefix + productName + '\n\n';
       messageField.focus();
       messageField.setSelectionRange(messageField.value.length, messageField.value.length);
     }
