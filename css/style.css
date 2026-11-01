@@ -779,3 +779,19 @@ a.photo-item { text-decoration: none; color: inherit; cursor: pointer; }
   .section { padding: 56px 0; }
   .mega-inner { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* ==========================================================================
+   White-background product photos: let the photo's white take the colour of
+   the tile behind it, so products sit directly on the page instead of in white boxes.
+   Only photos tagged .blend (white-bg studio shots) are affected.
+   ========================================================================== */
+:root { --tile-bg: var(--page-bg); }
+.section-alt { --tile-bg: var(--page-bg-alt); }
+img.blend { mix-blend-mode: multiply; }
+.photo-thumb:has(> img.blend),
+.product-photo:has(> img.blend),
+.split-media:has(> img.blend),
+.mega-thumb:has(> img.blend),
+.category-card:has(> img.blend),
+.cluster-card:has(> img.blend) { background: var(--tile-bg); isolation: isolate; }
+.split-media:has(> img.blend) { box-shadow: none; }
